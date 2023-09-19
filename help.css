@@ -1,0 +1,60 @@
+body {
+    background-color: #112;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.main {
+    background-color: #223;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50rem;
+    width: 75rem;
+    border: white solid 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    font-weight: bold;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #112;
+    color: white;
+    text-decoration: none;
+    height: 2rem;
+    width: 30rem;
+    border: white 2px solid;
+    margin: 2rem;
+    font-size: 150%;
+    & a:hover,
+    & a:focus,
+    & a:active,
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.midbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
